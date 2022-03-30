@@ -26,16 +26,72 @@ body {
   color: #e9e9e9 !important;
 }
 
+body::before {
+  display: block;
+  content: "";
+  height: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* INDEX FILE STYLES */
+
+/* 
+ HEADER SECTION
+*/
+
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #00b0ff !important;
+  font-family: "Bad Script", cursive;
   font-style: italic;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ddd;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 1px solid #00b0ff;
+  color: #00b0ff;
+}
+
+/* 
+    MAIN CONTENTS SECTION
+*/
+
+.showcase {
+  position: relative;
+  z-index: 1;
+  background-color: #444;
+}
+.showcase .bg-img-about {
+  position: absolute;
+  z-index: -100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../images/verde-chairs.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+  FOOTER SECTION
+*/
+
+.footer .copyright {
+  background-color: rgba(90, 90, 90, 0.1);
 }
 
 /* SCREEN SIZES */
@@ -45,9 +101,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .nav-link {
-    margin-top: 1rem;
-    font-size: 1.4rem;
+    height: 50vh;
+    padding: 2px;
   }
 }
