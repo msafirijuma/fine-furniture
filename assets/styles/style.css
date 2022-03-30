@@ -29,7 +29,7 @@ body {
 body::before {
   display: block;
   content: "";
-  height: 50px;
+  height: 54px;
 }
 
 * {
@@ -43,12 +43,10 @@ body::before {
 /* 
  HEADER SECTION
 */
-
 .navbar-brand {
   font-size: 1.5rem;
   color: #00b0ff !important;
   font-family: "Bad Script", cursive;
-  font-style: italic;
 }
 
 .navbar-nav .nav-item .nav-link {
