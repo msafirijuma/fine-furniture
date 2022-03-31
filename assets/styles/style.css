@@ -51,12 +51,16 @@ body::before {
 
 .navbar-nav .nav-item .nav-link {
   color: #ddd;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: lighter;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
   border-bottom: 1px solid #00b0ff;
+  color: #00b0ff;
+}
+
+.navbar-nav .nav-item .active-link {
   color: #00b0ff;
 }
 
@@ -84,6 +88,9 @@ body::before {
   height: 100%;
 }
 
+.contact-section {
+  background-color: #00b0ff;
+}
 .form-floating .textarea {
   height: 120px;
 }
@@ -169,6 +176,7 @@ body::before {
 /* copyrigth section */
 .footer .copyright {
   background-color: rgba(90, 90, 90, 0.1);
+  font-size: large;
 }
 
 /* SCREEN SIZES */
