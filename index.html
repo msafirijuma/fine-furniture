@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="hamburger">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link text-primary">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link" >Our Products</a>
@@ -103,7 +103,7 @@
             <div class="container">
                 <div class="row text-center text-dark gap-4 d-flex justify-content-between align-items-center">
                     <div class="col-md">
-                        <img src="assets/images/verde-chair.jpg" alt="Design" class="img-fluid">
+                        <img src="assets/images/verde-chairs.jpg" alt="Design" class="img-fluid h-80">
                     </div>
                     <div class="col-md">
                         <h2 class="text-primary">Designing</h2>
@@ -116,67 +116,89 @@
 
         <!-- Contact Section -->
         <div class="section-header text-center bg-dark p-3 mt-4 mb-0">
-            <span class="h2 text-primary">Contact Us</span>
+            <span class="h2 text-primary display-4">Contact Us</span>
         </div>
-        <section class="text-center bg-primary p-3">
+        <section class="text-center bg-primary p-1">
            <div class="container">
-               <div class="row d-flex justify-content-between align-items-center gap-4">
-                   <div class="col-md">
-                       <form action="" class="form text-primary">
-                           <div class="form-floating m-3">
-                               <input type="text" name="username" id="username" class="form-control" placeholder="Username">
-                               <label for="username" class="form-label">Name</label>
-                           </div>
-                           <div class="form-floating m-3">
-                               <input type="email" name="email" id="email" class="form-control" placeholder="email">
-                               <label for="email" class="form-label">Email Address</label>
-                           </div>
-                           <div class="form-floating m-3">
-                               <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Write comment" class="form-control"></textarea>
-                               <label for="message" class="form-label">Message</label>
-                           </div>
-                           <input type="button" class="btn btn-submit btn-dark btn-lg p-2" value="Submit">
+               <div class="row d-flex justify-content-between align-items-center gap-1">
+                   <div class="col-md-6">
+                       <form action="" class="form text-primary m-2 ">
+                          <fieldset class="border border-white border-3 p-5 m-1">
+                              <legend class="float-none width-auto p-2 text-white bg-dark ">
+                                  Contact Form
+                              </legend>
+                            <div class="form-floating m-3">
+                                <input type="text" name="username" id="username" class="form-control" placeholder="Username">
+                                <label for="username" class="form-label">Name</label>
+                            </div>
+                            <div class="form-floating m-3">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="email">
+                                <label for="email" class="form-label">Email Address</label>
+                            </div>
+                            <div class="form-floating m-3">
+                                <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Write comment"
+                                    class="form-control textarea"></textarea>
+                                <label for="message" class="form-label">Message</label>
+                            </div>
+                            <input type="button" class="btn btn-submit btn-dark btn-lg p-2" value="Submit">
+                          </fieldset>
                        </form>
                    </div>
-                   <div class="col-md">
-                       <h2 class="text-white">Address</h2>
-                       <address>
-                           Location: Dar Es Salaam, Tanzania
-                           Email: @example.co
-                           Tel: xxxxxx
+                   <div class="col-md ms-md-4 mb-3 px-0 py-3">
+                       <h2 class="text-white display-5">Address</h2>
+                       <address class="address">
+                          <p><span class="address-title">Location:</span> <a href="" class="text-white text-decoration-none address-link">Dar Es Salaam, Tanzania</a></p> 
+                          <p><span class="address-title">Email: </span> <a href="mailto:example@gmail.com" class="text-white text-decoration-none address-link">example@gmail.com</a></p> 
+                          <p><span class="address-title">Tel:</span> <a href="tel:+xxxx" class="text-white text-decoration-none address-link">+255xxxxxx</a></p>
                        </address>
                    </div>
                </div>
            </div>
+        </section>
+
+        <!-- Google Map -->
+        <section class="my-4">
+            <div class="container">
+               
+            </div>
         </section>
     </main>
 
 <br><br><br>
     <!-- Footer -->
     <footer class="footer bg-dark text-center">
-        <div class="container">
-            <h2 class="navbar-brand text-primary">Fine Furniture</h2>
-            <ul class="nav d-flex justify-content-center align-items-center">
+        <div class="container py-2 pt-3 d-flex justify-content-center align-items-center flex-column">
+            <h2 class="footer-brand text-primary display-4">Fine Furniture</h2>
+            <span class="lead display-6 m-1">Social Medias</span>
+            <hr class="horizontal-divider">
+            <ul class="nav d-flex justify-content-center align-items-center mt-2">
                 <li class="nav-item">
-                    <a href="" class="nav-link">twitter</a>
+                    <a href="" class="nav-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Facebook</a>
+                    <a href="" class="nav-link">
+                        <i class="fa fa-instagram"></i>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Instagram</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Gmail</a>
+                    <a href="" class="nav-link">
+                        <i class="fa fa-twitter"></i>
+                    </a>
                 </li>
             </ul>
         </div>
-        <div class="container-fluid copyright p-2">
-            Fine Furniture &copy; 
-            <script>
-                var date = new Date();
-                document.write(date.getFullYear())
-            </script>
+        <div class="container-fluid copyright p-2 py-3">
+            <small class="lead">Copyright &copy;  
+                <script>
+                    var date = new Date();
+                    document.write(date.getFullYear())
+                </script>
+                | Fine Furniture
+            </small>
+            
+            
         </div>
     </footer>
     
