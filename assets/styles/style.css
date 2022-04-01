@@ -18,6 +18,7 @@ font-family: "Raleway", sans-serif; */
   --secondary-focus: #285780e0;
   --off-white: #fcfcfc;
   --web-color: #00b0ff;
+  --fine-color:#198ace;
 }
 
 body {
@@ -43,9 +44,14 @@ body::before {
 /* 
  HEADER SECTION
 */
-.navbar-brand {
-  font-size: 1.5rem;
+.navbar-brand{
+  margin-right: 10px !important;
+  font-size: 1.3rem;
+}
+.navbar-text {
+  font-size: 1.3rem;
   color: #00b0ff !important;
+  padding: 8px 0;
   font-family: "Bad Script", cursive;
 }
 
