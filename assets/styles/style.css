@@ -44,11 +44,8 @@ body::before {
 /* 
  HEADER SECTION
 */
-.navbar-brand{
-  margin-right: 10px !important;
-  font-size: 1.3rem;
-}
-.navbar-text {
+
+.navbar-brand {
   font-size: 1.3rem;
   color: #00b0ff !important;
   padding: 8px 0;
