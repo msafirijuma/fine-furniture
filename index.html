@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage | Fine Furniture</title>
     <link rel="stylesheet" href="assets/styles/bootstrap/css/bootstrap.min.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/0932777f20.js" crossorigin="anonymous"></script>
@@ -118,6 +119,7 @@
         <!-- FAQ's -->
         <section class="questions p-5" id="questions">
             <div class="text-center text-primary display-5 m-2">FAQ's</div>
+            <hr class="horizontal-divider">
             <div class="accordion accordion-flush" id="questions">
                 <!-- Question 1 -->
                 <div class="accordion-item">
@@ -210,7 +212,7 @@
                        <address class="address">
                           <p><span class="address-title">Location:</span> <a href="" class="text-white text-decoration-none address-link">Dar Es Salaam, Tanzania</a></p> 
                           <p><span class="address-title">Email: </span> <a href="mailto:example@gmail.com" class="text-white text-decoration-none address-link">example@gmail.com</a></p> 
-                          <p><span class="address-title">Tel:</span> <a href="tel:+xxxx" class="text-white text-decoration-none address-link">+255xxxxxx</a></p>
+                          <p><span class="address-title">Tel:</span> <a href="tel:+xxxx" class="text-white text-decoration-none address-link">(+255) xxxxxx</a></p>
                        </address>
                    </div>
                </div>
@@ -220,9 +222,27 @@
         <!-- Google Map & Location -->
         <section class="p-5">
             <div class="container">
-                <div class="row g-4 text-primary d-md-flex justify-content-between align-items-center">
-                    <div class="col-md">1</div>
-                    <div class="col-md">2</div>
+                <div class="row g-4 text-primary">
+                    <div class="col-md">
+                        <h2 class="text-primary text-center">Contact Info</h2>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Main Location:</span> Keko Magurumbasi, Dar Es Salaam
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Tel Phone:</span> +255 (0) 6 xxxx
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">WhatsApp:</span> +255 (0) 6 xxxx
+                                </li>
+                                <li class="list-group-item">
+                                <span class="fw-bold">Email Address:  </span>email@example
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col-md">
+                        <div id="map"></div>
+                    </div>
                 </div>
                
             </div>
@@ -270,5 +290,15 @@
     <!-- Bootstrap JS File -->
     <script src="assets/scripts/app.js"></script>
     <script src="assets/scripts/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoienVsZnktOTkiLCJhIjoiY2wxaHlrNHByMG9iajNkcXVjNWtwam9sMiJ9.DlxeWdBaco-mbbpIwYLacw';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v11',
+                center: [],
+                zoom: 18
+            });
+    </script>
 </body>
 </html>
