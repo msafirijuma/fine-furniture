@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage | Fine Furniture</title>
     <link rel="stylesheet" href="assets/styles/bootstrap/css/bootstrap.min.css">
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/0932777f20.js" crossorigin="anonymous"></script>
@@ -15,34 +14,34 @@
 
     <!-- Navigation menu -->
     <header class="header">
-    <nav class="navbar navmenu navbar-expand-sm bg-dark navbar-dark py-3 px-1 fixed-top">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand">
-                Fine<span class="text-light ">Furniture</span>
-            </a>
-            
-            <button class="navbar-toggler border border-1 rounded-2" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="hamburger">
-                <ul class="navbar-nav  ms-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="html-files/products.html" class="nav-link" >Our Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="html-files/about.html" class="nav-link">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="html-files/contact.html" class="nav-link">Contact Us</a>
-                    </li>
-                </ul>
+        <nav class="navbar navmenu navbar-expand-sm bg-dark navbar-dark py-3 fixed-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    Fine<span class="text-light ">Furniture</span>
+                </a>
+                
+                <button class="navbar-toggler border border-0  rounded-2" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="hamburger">
+                    <ul class="navbar-nav  ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="html-files/products.html" class="nav-link" >Our Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="html-files/about.html" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="html-files/contact.html" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
 
 
@@ -220,9 +219,9 @@
         </section>
 
         <!-- Google Map & Location -->
-        <section class="p-5">
+        <section class="p-5 mb-3 bg-dark">
             <div class="container">
-                <div class="row g-4 text-primary">
+                <div class="row  text-primary g-3">
                     <div class="col-md">
                         <h2 class="text-primary text-center">Contact Info</h2>
                             <ul class="list-group list-group-flush">
@@ -241,7 +240,31 @@
                             </ul>
                     </div>
                     <div class="col-md">
-                        <div id="map"></div>
+                        <h2 class="text-primary text-center">Map</h2>
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe
+                                    src="https://maps.google.com/maps?q=keko%20Magurumbasi&amp;t=k&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                    id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;"></iframe><a
+                                    href="https://fnfmod.net" style="display:none">fnf</a>
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        text-align: right;
+                                        height: 250px;
+                                        width: 100%;
+                                    }
+                                </style><a href="https://www.googlemapsiframegenerator.com" style="display:none">Google Maps Iframe Generator -
+                                    Free Html Embed Code</a>
+                                <style>
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        background: none !important;
+                                        height: 250px;
+                                        width: 100%;
+                                    }
+                                </style>
+                            </div>
+                        </div>
                     </div>
                 </div>
                
@@ -290,15 +313,6 @@
     <!-- Bootstrap JS File -->
     <script src="assets/scripts/app.js"></script>
     <script src="assets/scripts/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
-    <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoienVsZnktOTkiLCJhIjoiY2wxaHlrNHByMG9iajNkcXVjNWtwam9sMiJ9.DlxeWdBaco-mbbpIwYLacw';
-            var map = new mapboxgl.Map({
-                container: 'map',
-                style: 'mapbox://styles/mapbox/streets-v11',
-                center: [-6.842489, 39.275605],  
-                zoom: 18
-            });
-    </script>
+    
 </body>
 </html>
