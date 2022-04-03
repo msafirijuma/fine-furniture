@@ -120,9 +120,18 @@ body::before {
 }
 
 /* Google Map */
-#map{
-  width:100%;
-  border-radius: 10px;
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 250px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 250px;
+  width: 100%;
 }
 
 /* 
