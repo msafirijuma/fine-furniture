@@ -49,6 +49,10 @@ body::before {
   border-color: #00b0ff !important;
 }
 
+.navbar-toggler:hover{
+  background-color: #999;
+}
+
 .navbar-brand {
   font-size: 1.5rem;
   color: #00b0ff !important;
@@ -62,8 +66,9 @@ body::before {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  border-bottom: 1px solid #00b0ff;
   color: #00b0ff;
+  font-weight: lighter;
+  transition: all .5s;
 }
 
 .navbar-nav .nav-item .active-link {
@@ -180,7 +185,7 @@ body::before {
   border-radius: 10px;
 }
 .nav-item .nav-link .fa-instagram:hover {
-  filter: blur(1px);
+  filter: opacity(.8)
 }
 
 .nav-item .nav-link .fa-twitter {
@@ -240,6 +245,20 @@ body::before {
   width: 300px;
   height: 200px;
   background-color: darkblue;
+}
+
+.founder-image{
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.video{
+  max-width: 400px;
+  height: 250px;
+  padding: 10px 20px;
+  border: 1px solid red;
+  border-radius: 5px;
 }
 
 
