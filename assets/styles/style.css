@@ -127,7 +127,7 @@ body::before {
 /* Google Map */
 .mapouter {
   position: relative;
-  text-align: right;
+  text-align: center;
   height: 250px;
   width: 100%;
 }
@@ -215,8 +215,9 @@ body::before {
 */
 
 .welcome-jumbotron .horizontal-line{
-  width: 100px;
-  height: 1px !important;
+  width: 120px;
+  height: 3px !important;
+  color:white;
 }
 
 .about-banner {
