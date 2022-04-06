@@ -99,6 +99,10 @@ body::before {
   height: 100%;
 }
 
+.btn-phone-call{
+  background-color: var(--fine-color);
+}
+
 
 
 /* Contact section */
@@ -110,7 +114,7 @@ body::before {
 }
 
 .btn-submit {
-  width: 90%;
+  width: 50%;
   border-radius: 10px;
 }
 
@@ -193,9 +197,20 @@ body::before {
   background-color: white;
   border-radius: 10px;
 }
+.nav-item .nav-link .twitter-white{
+  color: white;
+  background-color: #00acee;
+  border-radius: 10px;
+}
+
 .nav-item .nav-link .fa-twitter:hover {
   color: white;
   background-color: #00acee;
+}
+
+.nav-item .nav-link .twitter-white:hover {
+  color: #00acee;
+  background-color: white;
 }
 
 .nav-item .nav-link .fa:hover {
