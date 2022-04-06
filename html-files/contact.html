@@ -50,8 +50,8 @@
 
         <main class="main mb-5">
             <div class="container-fluid text-primary text-center">
-                <h2 class="text-dark display-5">Contact Us</h2>
-                <p class="lead">For any enqueries, and, or an advice don't hesitate to call or send us a message in order for us to improve our business and services in general.</p>
+                <h2 class="text-primary display-5">Contact Us</h2>
+                <p class="lead text-dark">For any enqueries, and, or an advice don't hesitate to call or send us a message in order for us to improve our valuable services.</p>
             </div>
 
             <!-- Social Medias -->
@@ -65,13 +65,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">
+                            <a href="https://www.instagram.com/finefurniture_tz/" class="nav-link">
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link">
-                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-twitter twitter-white"></i>
                             </a>
                         </li>
                     </ul>
@@ -79,23 +79,31 @@
             </section>
 
             <!-- Location & Contact Form-->
-            <section class="p-5 mb-3 bg-dark">
+            <section class="p-3 mb-3 bg-dark">
                 <div class="container">
                     <div class="row  text-primary g-3">
-                        <div class="col-md">
+                        <div class="col-md py-4">
                             <h2 class="text-primary text-center">Contact Info</h2>
-                            <ul class="list-group list-group-flush">
+                            <ul class="list-group list-group-flush py-5">
                                 <li class="list-group-item">
-                                    <span class="fw-bold">Main Location:</span> Keko Magurumbasi, Dar Es Salaam
+                                    <i class="fa fa-location"></i>
+                                    <span class="fw-bold text-dark me-1">Main Location:</span>
+                                    <a href="#mapouter" class="address-link text-decoration-none">Keko Magurumbasi, Dar Es Salaam</a>
                                 </li>
                                 <li class="list-group-item">
-                                    <span class="fw-bold">Tel Phone:</span> +255 (0) 6 xxxx
+                                    <i class="fa fa-phone"></i>
+                                    <span class="fw-bold text-dark ">Tel Phone:</span>
+                                    <a href="tel:+255718164067" class="address-link text-decoration-none">+255718164067</a>
                                 </li>
                                 <li class="list-group-item">
-                                    <span class="fw-bold">WhatsApp:</span> +255 (0) 6 xxxx
+                                    <i class="fa fa-whatsapp"></i>
+                                    <span class="fw-bold text-dark me-1">WhatsApp:</span>
+                                    <a href="https://wa.me/255682824139" class="address-link text-decoration-none">+255682824139</a:href>
                                 </li>
                                 <li class="list-group-item">
-                                <span class="fw-bold">Email Address:  </span>email@example
+                                    <i class="fa fa-google"></i>
+                                <span class="fw-bold text-dark me-1">Email Address:</span>
+                                <a href="mailto:example@email.com" class="address-link text-decoration-none">email@example.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -108,11 +116,11 @@
                                     <fieldset class="border border-white border-3 p-4 m-1">
                                         <legend class="float-none width-auto p-2 text-white bg-secondary text-center">Contact Form</legend>
                                         <div class="form-floating my-3">
-                                            <input type="text" name="username" id="username" class="form-control">
+                                            <input type="text" name="username" id="username" class="form-control" placeholder="Username">
                                             <label for="message" class="text-dark">Username</label>
                                         </div>
                                         <div class="form-floating my-3">
-                                            <input type="email" name="email" id="email" class="form-control">
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="EMail">
                                             <label for="message" class="text-dark">Email</label>
                                         </div>
                                         <div class="form-floating my-3">
@@ -120,7 +128,7 @@
                                             <label for="message" class="text-dark">Message</label>
                                         </div>
 
-                                        <input type="submit" value="Submit" class="btn btn-submit btn-primary btn-lg px-2 d-block mx-auto">
+                                        <input type="submit" value="Send" class="btn btn-submit btn-primary btn-lg px-2 d-block mx-auto">
                                     </fieldset>
                                </form>
                         </div>
@@ -132,7 +140,7 @@
             <section class="my-4">
                 <div class="container">
                     <h2 class="text-primary text-center">Google Map</h2>
-                        <div class="mapouter">
+                        <div class="mapouter" id="mapouter">
                             <div class="gmap_canvas">
                                 <iframe
                                     src="https://maps.google.com/maps?q=keko%20Magurumbasi&amp;t=k&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
