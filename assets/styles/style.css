@@ -277,6 +277,13 @@ body::before {
   border-radius: 5px;
 }
 
+.divider{
+  width: 80px;
+  height: 20px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
 
 /* SCREEN SIZES */
 /* 
