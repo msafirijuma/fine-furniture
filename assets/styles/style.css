@@ -192,24 +192,15 @@ body::before {
   filter: opacity(.8)
 }
 
-.nav-item .nav-link .fa-twitter {
-  color: #00acee;
-  background-color: white;
-  border-radius: 10px;
-}
-.nav-item .nav-link .twitter-white{
+.nav-item .nav-link .fa-whatsapp {
   color: white;
-  background-color: #00acee;
+  /* background-color: #128c7e; */
+  background-color: #25d366;
   border-radius: 10px;
 }
 
-.nav-item .nav-link .fa-twitter:hover {
-  color: white;
-  background-color: #00acee;
-}
-
-.nav-item .nav-link .twitter-white:hover {
-  color: #00acee;
+.nav-item .nav-link .fa-whatsapp:hover {
+  color: #128c7e;
   background-color: white;
 }
 
