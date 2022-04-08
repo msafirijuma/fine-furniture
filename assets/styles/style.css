@@ -18,7 +18,7 @@ font-family: "Raleway", sans-serif; */
   --secondary-focus: #285780e0;
   --off-white: #fcfcfc;
   --web-color: #00b0ff;
-  --fine-color:#198ace;
+  --fine-color: #198ace;
 }
 
 body {
@@ -45,11 +45,11 @@ body::before {
  HEADER SECTION
 */
 
-.navbar-toggler{
+.navbar-toggler {
   border-color: #00b0ff !important;
 }
 
-.navbar-toggler:hover{
+.navbar-toggler:hover {
   background-color: #999;
 }
 
@@ -68,7 +68,7 @@ body::before {
 .navbar-nav .nav-item .nav-link:hover {
   color: #00b0ff;
   font-weight: lighter;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .navbar-nav .nav-item .active-link {
@@ -99,11 +99,26 @@ body::before {
   height: 100%;
 }
 
-.btn-phone-call{
+.btn-phone-call {
   background-color: var(--fine-color);
 }
 
+/* Products */
+.product-title {
+  color: #00b0ff;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
 
+.image-product {
+  width: 430px;
+  height: 350px;
+}
+
+.off-white-shadow{
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4), -2px -2px 4px rgba(0, 0, 0, 0.4) !important;
+  margin:10px;
+}
 
 /* Contact section */
 .contact-section {
@@ -120,7 +135,7 @@ body::before {
 
 .address-link {
   font-weight: lighter;
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 .address-title {
@@ -189,7 +204,7 @@ body::before {
   border-radius: 10px;
 }
 .nav-item .nav-link .fa-instagram:hover {
-  filter: opacity(.8)
+  filter: opacity(0.8);
 }
 
 .nav-item .nav-link .fa-whatsapp {
@@ -214,16 +229,14 @@ body::before {
   font-size: large;
 }
 
-
-
 /* 
   ABOUT US PAGE 
 */
 
-.welcome-jumbotron .horizontal-line{
+.welcome-jumbotron .horizontal-line {
   width: 120px;
   height: 3px !important;
-  color:white;
+  color: white;
 }
 
 .about-banner {
@@ -247,20 +260,20 @@ body::before {
   height: 100%;
 }
 
-.h-divider{
+.h-divider {
   display: block;
   width: 300px;
   height: 200px;
   background-color: darkblue;
 }
 
-.founder-image{
+.founder-image {
   width: 350px;
   height: auto;
   border-radius: 10px;
 }
 
-.video{
+.video {
   max-width: 400px;
   height: 250px;
   padding: 10px 20px;
@@ -268,13 +281,12 @@ body::before {
   border-radius: 5px;
 }
 
-.divider{
+.divider {
   width: 80px;
   height: 20px;
   background-color: black;
   margin-bottom: 20px;
 }
-
 
 /* SCREEN SIZES */
 /* 
