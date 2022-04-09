@@ -79,6 +79,7 @@ body::before {
     MAIN CONTENTS SECTION
 */
 
+/* Jumbotron Showcase */
 .showcase {
   position: relative;
   z-index: 1;
@@ -101,6 +102,25 @@ body::before {
 
 .btn-phone-call {
   background-color: var(--fine-color);
+}
+
+
+/* SLideshow */
+
+.carousel-inner {
+  width: 100%;
+  height: 300px;
+}
+
+.carousel-inner .image-carousel {
+  max-width: 100%;
+  height: 300px;
+}
+
+.carousel-indicators .active {
+  background-color: #555;
+  padding-bottom: 2px;
+  margin-left: 2px;
 }
 
 /* Products */
