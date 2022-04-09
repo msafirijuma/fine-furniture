@@ -123,6 +123,22 @@ body::before {
   margin-left: 2px;
 }
 
+.carousel-control-prev,
+.carousel-control-next{
+  border: 0;
+  background-color: transparent;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  padding: 2px;
+}
+
+.carousel-caption h5{
+  color: black;
+  margin-bottom: 2px;
+  font-weight: lighter;
+}
 /* Products */
 .product-title {
   color: #00b0ff;
