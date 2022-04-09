@@ -110,14 +110,13 @@ body::before {
   font-size: 1.5rem;
 }
 
-.image-product {
+/* .image-product {
   width: 430px;
   height: 350px;
-}
+} */
 
 .off-white-shadow{
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4), -2px -2px 4px rgba(0, 0, 0, 0.4) !important;
-  margin:10px;
 }
 
 /* Contact section */
