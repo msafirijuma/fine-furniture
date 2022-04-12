@@ -284,6 +284,14 @@ body::before {
   padding: 2px;
 }
 
+.categories .nav-item .btn-secondary{
+  background-color: #909399;
+}
+
+.categories .nav-item .active{
+ background-color: #0d6efd;
+}
+
 /* 
   ABOUT US PAGE 
 */
