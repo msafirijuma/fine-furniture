@@ -61,7 +61,7 @@ body::before {
 
 .navbar-nav .nav-item .nav-link {
   color: #ddd;
-  font-size: 1.25rem;
+  font-size: 1.23rem;
   font-weight: lighter;
 }
 
@@ -105,7 +105,7 @@ body::before {
 }
 
 
-/* SLideshow */
+/* Slideshow */
 
 .carousel-inner {
   width: 100%;
