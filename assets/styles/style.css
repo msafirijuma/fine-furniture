@@ -164,6 +164,9 @@ body::before {
 .tab-content .tab-pane .img-category{
   display: inline-block;
   margin: 10px auto;
+  width: 250px;
+  height: 250px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.6), -1px -1px rgba(0, 0, 0, 0.4);
 }
 /* .image-product {
   width: 430px;
