@@ -367,6 +367,136 @@ body::before {
   margin-bottom: 20px;
 }
 
+
+/* SLIDESHOW FOR OUR PRODUCTS CATEGORIES */
+
+/* Slideshow container */
+
+.furniture-slideshow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 500px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.furniture-slideshow .all-slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+/* Styling images */
+.furniture-slideshow .images-furniture {
+  height: 300px;
+  width: 100%;
+}
+
+/* Hide the images by default */
+.furniture-slideshow .all-slides {
+  display: none;
+}
+
+/* Number text  */
+.furniture-slideshow .caption-text {
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 8px 12px;
+  position: relative;
+  top: 10px;
+}
+
+/* The dots/bullets/indicators */
+.furniture-dots {
+  margin: 2px;
+}
+
+.all-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 2px 2px 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activated,
+.all-dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Next and Preview button */
+
+.control-image-button {
+  position: absolute;
+  top: 46%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.preview-image,
+.next-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #000;
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.preview-image {
+  left: -170px;
+}
+
+.next-image {
+  right: -170px;
+}
+
 /* SCREEN SIZES */
 /* 
 @media screen and (max-width: 576px) {
