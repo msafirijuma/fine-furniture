@@ -436,10 +436,10 @@ body::before {
 .showcase-dot,
 .sofa-dot ,
 .bed-dot,
-.wadrobe,
-.dinning,
-.kitchen,
-.office{
+.wadrobe-dot,
+.dinning-dot,
+.kitchen-dot,
+.office-dot{
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -455,10 +455,10 @@ body::before {
 .showcase-dot:hover,
 .sofa-dot:hover,
 .bed-dot:hover,
-.wadrobe:hover,
-.dinning:hover,
-.kitchen:hover,
-.office:hover{
+.wadrobe-dot:hover,
+.dinning-dot:hover,
+.kitchen-dot:hover,
+.office-dot:hover{
   background-color: #717171;
 }
 
@@ -525,6 +525,11 @@ body::before {
   right: -170px;
 }
 
+.preview-image:hover,
+.next-image:hover{
+  color:white;
+  cursor: pointer;
+}
 /* SCREEN SIZES */
 /* 
 @media screen and (max-width: 576px) {
