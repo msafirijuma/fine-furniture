@@ -518,11 +518,11 @@ body::before {
 }
 
 .preview-image {
-  left: -170px;
+  left: -145px;
 }
 
 .next-image {
-  right: -170px;
+  right: -145px;
 }
 
 .preview-image:hover,
