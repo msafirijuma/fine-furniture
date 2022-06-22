@@ -242,72 +242,372 @@
                                 <span class="all-dot " onclick="allCurrentSlide(10)"></span>
                             </div>
                         </div>
-                        
                     </div>
                     
                     <div class="tab-pane container fade" id="showcase">
                         <h5 class="text-center text-dark m-2">TV Showcases</h5>
-                        <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
-                            <img src="../assets/images/tv-showcase-flowers.jpg" alt="TV Showcases" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/sitting-rooms-design-one.jpg" alt="TV Showcases" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/showcase-three.jpg" alt="TV Showcases" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/fine-tv-showcase.jpg" alt="TV Showcases" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/fine-tv-showcase-one.jpg" alt="TV Showcases" class="img-fluid img-thumbnail img-category">
+                        <div class="container">
+                            <!-- Slideshow Hotel Images -->
+                            <div class="furniture-slideshow">
+                        
+                                <!-- Full-width images with number and caption text -->
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/tv-showcase-flowers.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">1 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/sitting-rooms-design-one.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">2 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase-one.jpg" alt="TV Showcases"  class="images-furniture">
+                                    <div class="caption-text">3 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/showcase-three.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">4 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase.jpg" alt="TV Showcases"  class="images-furniture">
+                                    <div class="caption-text">5 / 5</div>
+                                </div>
+                                
+                                <!-- Preview and Next button -->
+                                <div class="control-image-button">
+                                    <a class="preview-image" onclick="showcasePlusSlides(-1)">&#10094;</a>
+                                    <a class="next-image" onclick="showcasePlusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        
+                            <!-- The dots/circles -->
+                            <div style="text-align:center" class="furniture-dots">
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(1)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(2)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(3)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(4)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(5)"></span>
+                            </div>
                         </div>
                     </div>
+
                     <div class="tab-pane container fade" id="sofa">
                         <h5 class="text-center text-dark m-2">Sofas</h5>
-                        <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
-                            <img src="../assets/images/fine-sofas-three.jpg" alt="Sofas" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/fine-sofas-two.jpg" alt="Sofas" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/sofas-sets.jpg" alt="Sofas" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/cable-sofa-two.jpg" alt="Sofas" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/fine-sofas-four.jpg" alt="Sofas" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/sofas.jpg" alt="Sofas" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/cable-sofa.jpg" alt="Sofas" class="img-fluid img-thumbnail img-category">
+                        <div class="container">
+                            <!-- Slideshow Hotel Images -->
+                            <div class="furniture-slideshow">
+                        
+                                <!-- Full-width images with number and caption text -->
+                                <div class="sofa-slides fade">
+                                    <img src="../assets/images/fine-sofas-three.jpg" alt="Sofas" class="images-furniture">
+                                    <div class="caption-text">1 / 7</div>
+                                </div>
+                        
+                                <div class="sofa-slides fade">
+                                    <img src="../assets/images/fine-sofas-two.jpg" alt="Sofas" class="images-furniture">
+                                    <div class="caption-text">2 / 7</div>
+                                </div>
+                        
+                                <div class="sofa-slides fade">
+                                    <img src="../assets/images/sofas-sets.jpg" alt="Sofas"  class="images-furniture">
+                                    <div class="caption-text">3 / 7</div>
+                                </div>
+                                <div class="sofa-slides fade">
+                                    <img src="../assets/images/cable-sofa-two.jpg" alt="Sofas" class="images-furniture">
+                                    <div class="caption-text">4 / 7</div>
+                                </div>
+                                <div class="sofa-slides fade">
+                                    <img src="../assets/images/fine-sofas-four.jpg" alt="Sofas" class="images-furniture">
+                                    <div class="caption-text">5 / 7</div>
+                                </div>
+                                <div class="sofa-slides fade">
+                                    <img src="../assets/images/sofas.jpg" alt="Sofas" class="images-furniture">
+                                    <div class="caption-text">6 / 7</div>
+                                </div>
+                                <div class="sofa-slides fade">
+                                    <img src="../assets/images/cable-sofa.jpg" alt="Sofas" class="images-furniture">
+                                    <div class="caption-text">7 / 7</div>
+                                </div>
+                        
+                                <!-- Preview and Next button -->
+                                <div class="control-image-button">
+                                    <a class="preview-image" onclick="sofaPlusSlides(-1)">&#10094;</a>
+                                    <a class="next-image" onclick="sofaPlusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        
+                            <!-- The dots/circles -->
+                            <div style="text-align:center" class="furniture-dots">
+                                <span class="sofa-dot " onclick="sofaCurrentSlide(1)"></span>
+                                <span class="sofa-dot " onclick="sofaCurrentSlide(2)"></span>
+                                <span class="sofa-dot " onclick="sofaCurrentSlide(3)"></span>
+                                <span class="sofa-dot " onclick="sofaCurrentSlide(4)"></span>
+                                <span class="sofa-dot " onclick="sofaCurrentSlide(5)"></span>
+                                <span class="sofa-dot " onclick="sofaCurrentSlide(6)"></span>
+                                <span class="sofa-dot " onclick="sofaCurrentSlide(7)"></span>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane container fade" id="bed">
                         <h5 class="text-center text-dark m-2">Beds</h5>
-                        <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
-                            <img src="../assets/images/beds-sofas-fine.jpg" alt="Beds" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/fine-beds-two.jpg" alt="Beds" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/fine-lighting-beds-one.jpg" alt="Beds" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/fine-lighting-beds.jpg" alt="Beds" class="img-fluid img-thumbnail img-category">
+                        <div class="container">
+                            <!-- Slideshow Hotel Images -->
+                            <div class="furniture-slideshow">
+                        
+                                <!-- Full-width images with number and caption text -->
+                                <div class="bed-slides fade">
+                                    <img src="../assets/images/beds-sofas-fine.jpg" alt="Beds" class="images-furniture">
+                                    <div class="caption-text">1 / 5</div>
+                                </div>
+                        
+                                <div class="bed-slides fade">
+                                    <img src="../assets/images/fine-beds-two.jpg" alt="Beds" class="images-furniture">
+                                    <div class="caption-text">2 / 5</div>
+                                </div>
+                        
+                                <div class="bed-slides fade">
+                                    <img src="../assets/images/fine-lighting-beds-one.jpg" alt="Beds"  class="images-furniture">
+                                    <div class="caption-text">3 / 5</div>
+                                </div>
+
+                                <div class="bed-slides fade">
+                                    <img src="../assets/images/fine-lighting-beds.jpg" alt="Beds" class="images-furniture">
+                                    <div class="caption-text">4 / 5</div>
+                                </div>
+                                
+                                <div class="bed-slides fade">
+                                    <img src="../assets/images/fine-lighting-beds.jpg" alt="Beds" class="images-furniture">
+                                    <div class="caption-text">5 / 5</div>
+                                </div>
+                        
+                                <!-- Preview and Next button -->
+                                <div class="control-image-button">
+                                    <a class="preview-image" onclick="bedPlusSlides(-1)">&#10094;</a>
+                                    <a class="next-image" onclick="bedPlusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        
+                            <!-- The dots/circles -->
+                            <div style="text-align:center" class="furniture-dots">
+                                <span class="bed-dot " onclick="bedCurrentSlide(1)"></span>
+                                <span class="bed-dot " onclick="bedCurrentSlide(2)"></span>
+                                <span class="bed-dot " onclick="bedCurrentSlide(3)"></span>
+                                <span class="bed-dot " onclick="bedCurrentSlide(4)"></span>
+                                <span class="bed-dot " onclick="bedCurrentSlide(5)"></span>
+                            </div>
                         </div>
                     </div>
+
+                    
                     <div class="tab-pane container fade" id="wadrobe">
                         <h5 class="text-center text-dark m-2">Wadrobes</h5>
-                        <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
+                        <div class="container">
+                            <!-- Slideshow Hotel Images -->
+                            <div class="furniture-slideshow">
+                        
+                                <!-- Full-width images with number and caption text -->
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/tv-showcase-flowers.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">1 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/sitting-rooms-design-one.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">2 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase-one.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">3 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/showcase-three.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">4 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">5 / 5</div>
+                                </div>
+                        
+                                <!-- Preview and Next button -->
+                                <div class="control-image-button">
+                                    <a class="preview-image" onclick="showcasePlusSlides(-1)">&#10094;</a>
+                                    <a class="next-image" onclick="showcasePlusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        
+                            <!-- The dots/circles -->
+                            <div style="text-align:center" class="furniture-dots">
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(1)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(2)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(3)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(4)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(5)"></span>
+                            </div>
+                        </div>
+                        <!-- <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
                             <img src="../assets/images/fine-cabinets.jpg" alt="Wadrobes" class="img-fluid img-thumbnail img-category">
                             <img src="../assets/images/wadrobes.jpg" alt="Wadrobes" class="img-fluid img-thumbnail img-category">
                             <img src="../assets/images/fine-wadrobe-open.jpg" alt="Wadrobes" class="img-fluid img-thumbnail img-category">
                             <img src="../assets/images/fine-wadrobes-one.jpg" alt="Wadrobes" class="img-fluid img-thumbnail img-category">
-                        </div>
+                        </div> -->
                     </div>
                     <div class="tab-pane container fade" id="dinning">
                         <h5 class="text-center text-dark m-2">Dinning Sets</h5>
-                        <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
-                            <img src="../assets/images/fine-dinning-tables.jpg" alt="Dinning Set" class="img-fluid img-thumbnail img-category">
+                        <div class="container">
+                            <!-- Slideshow Hotel Images -->
+                            <div class="furniture-slideshow">
+                        
+                                <!-- Full-width images with number and caption text -->
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/tv-showcase-flowers.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">1 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/sitting-rooms-design-one.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">2 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase-one.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">3 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/showcase-three.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">4 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">5 / 5</div>
+                                </div>
+                        
+                                <!-- Preview and Next button -->
+                                <div class="control-image-button">
+                                    <a class="preview-image" onclick="showcasePlusSlides(-1)">&#10094;</a>
+                                    <a class="next-image" onclick="showcasePlusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        
+                            <!-- The dots/circles -->
+                            <div style="text-align:center" class="furniture-dots">
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(1)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(2)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(3)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(4)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(5)"></span>
+                            </div>
                         </div>
+                        <!-- <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
+                            <img src="../assets/images/fine-dinning-tables.jpg" alt="Dinning Set" class="img-fluid img-thumbnail img-category">
+                        </div> -->
                     </div>
                     <div class="tab-pane container fade" id="kitchen">
                         <h5 class="text-center text-dark m-2">Kitchen Furniture</h5>
-                        <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
+                        <div class="container">
+                            <!-- Slideshow Hotel Images -->
+                            <div class="furniture-slideshow">
+                        
+                                <!-- Full-width images with number and caption text -->
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/tv-showcase-flowers.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">1 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/sitting-rooms-design-one.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">2 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase-one.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">3 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/showcase-three.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">4 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">5 / 5</div>
+                                </div>
+                        
+                                <!-- Preview and Next button -->
+                                <div class="control-image-button">
+                                    <a class="preview-image" onclick="showcasePlusSlides(-1)">&#10094;</a>
+                                    <a class="next-image" onclick="showcasePlusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        
+                            <!-- The dots/circles -->
+                            <div style="text-align:center" class="furniture-dots">
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(1)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(2)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(3)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(4)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(5)"></span>
+                            </div>
+                        </div>
+                        <!-- <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
                             <img src="../assets/images/fine-kitchen-five.jpg" alt="" class="img-fluid img-thumbnail img-category">
                             <img src="../assets/images/fine-kitchen-two.jpg" alt="" class="img-fluid img-thumbnail img-category">
                             <img src="../assets/images/fine-kitchen-four.jpg" alt="" class="img-fluid img-thumbnail img-category">
                             <img src="../assets/images/mini-kitchen-two.jpg" alt="" class="img-fluid img-thumbnail img-category">
-                        </div>
+                        </div> -->
                     </div>
                     <div class="tab-pane container fade" id="office">
                         <h5 class="text-center text-dark m-2">Office Furniture</h5>
-                        <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
+                        <div class="container">
+                            <!-- Slideshow Hotel Images -->
+                            <div class="furniture-slideshow">
+                        
+                                <!-- Full-width images with number and caption text -->
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/tv-showcase-flowers.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">1 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/sitting-rooms-design-one.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">2 / 5</div>
+                                </div>
+                        
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase-one.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">3 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/showcase-three.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">4 / 5</div>
+                                </div>
+                                <div class="showcase-slides fade">
+                                    <img src="../assets/images/fine-tv-showcase.jpg" alt="TV Showcases" class="images-furniture">
+                                    <div class="caption-text">5 / 5</div>
+                                </div>
+                        
+                                <!-- Preview and Next button -->
+                                <div class="control-image-button">
+                                    <a class="preview-image" onclick="showcasePlusSlides(-1)">&#10094;</a>
+                                    <a class="next-image" onclick="showcasePlusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        
+                            <!-- The dots/circles -->
+                            <div style="text-align:center" class="furniture-dots">
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(1)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(2)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(3)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(4)"></span>
+                                <span class="showcase-dot " onclick="showcaseCurrentSlide(5)"></span>
+                            </div>
+                        </div>
+                        <!-- <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
                             <img src="../assets/images/office-furniture-two.jpg" alt="Office Table" class="img-fluid img-thumbnail img-category">
                             <img src="../assets/images/office-furniture-three.jpg" alt="Office Table" class="img-fluid img-thumbnail img-category">
                             <img src="../assets/images/office-chairs.jpg" alt="Office Chair" class="img-fluid img-thumbnail img-category">
                             <img src="../assets/images/office-chairs-one.jpg" alt="Office Chairs" class="img-fluid img-thumbnail img-category">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -425,5 +725,12 @@
 
     <!-- Furniture JS Files -->
     <script src="../assets/scripts/furniture-script/all-furniture.js"></script>
+    <script src="../assets/scripts/furniture-script/showcase.js"></script>
+    <script src="../assets/scripts/furniture-script/sofa.js"></script>
+    <script src="../assets/scripts/furniture-script/bed.js"></script>
+    <script src="../assets/scripts/furniture-script/wadrobe.js"></script>
+    <script src="../assets/scripts/furniture-script/dinning.js"></script>
+    <script src="../assets/scripts/furniture-script/kitchen.js"></script>
+    <script src="../assets/scripts/furniture-script/office.js"></script>
 </body>
 </html>
