@@ -1,5 +1,5 @@
 
-// All Furniture SLIDESHOW IMAGES
+// ALL FURNITURE SLIDESHOW IMAGES
 
 var allSlideIndex = 1;
 previewAllSlides(allSlideIndex);
