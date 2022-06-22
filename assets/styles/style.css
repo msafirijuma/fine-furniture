@@ -383,7 +383,14 @@ body::before {
   margin-top: 0px;
 }
 
-.furniture-slideshow .all-slides {
+.furniture-slideshow .all-slides, 
+.furniture-slideshow .showcase-slides,
+.furniture-slideshow .sofa-slides,
+.furniture-slideshow .bed-slides,
+.furniture-slideshow .wadrobe-slides,
+.furniture-slideshow .dinning-slides, 
+.furniture-slideshow .kitchen-slides,
+.furniture-slideshow .office-slides {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,7 +406,14 @@ body::before {
 }
 
 /* Hide the images by default */
-.furniture-slideshow .all-slides {
+.furniture-slideshow .all-slides,
+.furniture-slideshow .showcase-slides,
+.furniture-slideshow .sofa-slides,
+.furniture-slideshow .bed-slides,
+.furniture-slideshow .wadrobe-slides,
+.furniture-slideshow .dinning-slides,
+.furniture-slideshow .kitchen-slides,
+.furniture-slideshow .office-slides {
   display: none;
 }
 
@@ -418,7 +432,14 @@ body::before {
   margin: 2px;
 }
 
-.all-dot {
+.all-dot,
+.showcase-dot,
+.sofa-dot ,
+.bed-dot,
+.wadrobe,
+.dinning,
+.kitchen,
+.office{
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -430,7 +451,14 @@ body::before {
 }
 
 .activated,
-.all-dot:hover {
+.all-dot:hover,
+.showcase-dot:hover,
+.sofa-dot:hover,
+.bed-dot:hover,
+.wadrobe:hover,
+.dinning:hover,
+.kitchen:hover,
+.office:hover{
   background-color: #717171;
 }
 
