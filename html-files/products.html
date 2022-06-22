@@ -173,16 +173,76 @@
                 <div class="tab-content my-4 mx-auto">
                     <div class="tab-pane container show active  fade" id="all">
                         <h5 class="text-center text-dark m-2">All Categories</h5>
-                        <div class="container text-center text-md-start ms-md-5 text-lg-start ms-xl-4 text-xl-start text-xxl-center ms-xxl-0">
-                            <img src="../assets/images/arm-chairs.jpg" alt="Arms Chair" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/beds-sofas-fine.jpg" alt="Sofas" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/cable-sofa-two.jpg" alt="Sofa" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/fine-dinning-tables.jpg" alt="Dinning Sets" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/fine-sofas-three.jpg" alt="Beds" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/dressing-table-one.jpg" alt="Dressing Table" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/mini-kitchen-two.jpg" alt="Mini Kitchen" class="img-fluid img-thumbnail img-category">
-                            <img src="../assets/images/sofas-with-chair.jpg" alt="Sofas" class="img-fluid img-thumbnail img-category">
+                        <div class="container">
+                            <!-- Slideshow Hotel Images -->
+                            <div class="furniture-slideshow">
+                            
+                                <!-- Full-width images with number and caption text -->
+                                <div class="all-slides fade">
+                                    <img src="../assets/images/arm-chairs.jpg" alt="Arms Chair" class="images-furniture">
+                                    <div class="caption-text">1 / 10</div>
+                                </div>
+                            
+                                <div class="all-slides fade">
+                                    <img  src="../assets/images/beds-sofas-fine.jpg" alt="Bed Sofas" class="images-furniture">
+                                    <div class="caption-text">2 / 10</div>
+                                </div>
+                            
+                                <div class="all-slides fade">
+                                    <img src="../assets/images/cable-sofa-two.jpg" alt="Cable Sofa" class="images-furniture">
+                                    <div class="caption-text">3 / 10</div>
+                                </div>
+                                <div class="all-slides fade">
+                                    <img src="../assets/images/fine-dinning-tables.jpg" alt="Dinning Sets" class="images-furniture">
+                                    <div class="caption-text">4 / 10</div>
+                                </div>
+                                <div class="all-slides fade">
+                                    <img src="../assets/images/fine-kitchen-five.jpg" class="images-furniture">
+                                    <div class="caption-text">5 / 10</div>
+                                </div>
+                                <div class="all-slides fade">
+                                    <img src="../assets/images/fine-sofas-three.jpg" alt="Beds" class="images-furniture">
+                                    <div class="caption-text">6 / 10</div>
+                                </div>
+                                <div class="all-slides fade">
+                                    <img src="../assets/images/dressing-table-one.jpg" alt="Dressing Table" class="images-furniture">
+                                    <div class="caption-text">7 / 10</div>
+                                </div>
+                                <div class="all-slides fade">
+                                    <img src="../assets/images/mini-kitchen-two.jpg" alt="Mini Kitchen"  class="images-furniture">
+                                    <div class="caption-text">8 / 10</div>
+                                </div>
+                                <div class="all-slides fade">
+                                    <img src="../assets/images/sofas-with-chair.jpg" alt="Sofas" class="images-furniture">
+                                    <div class="caption-text">9 / 10</div>
+                                </div>
+                                <div class="all-slides fade">
+                                    <img src="../assets/images/sitting-rooms-design.jpg" alt="Sofas" class="images-furniture">
+                                    <div class="caption-text">10 / 10</div>
+                                </div>
+                            
+                                <!-- Preview and Next button -->
+                                <div class="control-image-button">
+                                    <a class="preview-image" onclick="allPlusSlides(-1)">&#10094;</a>
+                                    <a class="next-image" onclick="allPlusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                            
+                            <!-- The dots/circles -->
+                            <div style="text-align:center" class="furniture-dots">
+                                <span class="all-dot " onclick="allCurrentSlide(1)"></span>
+                                <span class="all-dot " onclick="allCurrentSlide(2)"></span>
+                                <span class="all-dot " onclick="allCurrentSlide(3)"></span>
+                                <span class="all-dot " onclick="allCurrentSlide(4)"></span>
+                                <span class="all-dot " onclick="allCurrentSlide(5)"></span>
+                                <span class="all-dot " onclick="allCurrentSlide(6)"></span>
+                                <span class="all-dot " onclick="allCurrentSlide(7)"></span>
+                                <span class="all-dot " onclick="allCurrentSlide(8)"></span>
+                                <span class="all-dot " onclick="allCurrentSlide(9)"></span>
+                                <span class="all-dot " onclick="allCurrentSlide(10)"></span>
+                            </div>
                         </div>
+                        
                     </div>
                     
                     <div class="tab-pane container fade" id="showcase">
@@ -362,5 +422,8 @@
     
     <!-- Bootstrap JS File -->
     <script src="../assets/scripts/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Furniture JS Files -->
+    <script src="../assets/scripts/furniture-script/all-furniture.js"></script>
 </body>
 </html>
